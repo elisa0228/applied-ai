@@ -145,11 +145,15 @@ This project showcases practical experience in:
 ### Repository Structure
 
 ```text
-├── notebook.ipynb
 ├── data/
 │   └── Air_full-Raw.csv
-├── requirements.txt
-└── README.md
+├── images/
+│   └── workflow_diagram.png
+│   └── fitness_progression.png
+├── README.md
+├── airline_scheduling_genetic_algorithm.ipynb
+└── requirements.txt
+
 ```
 
 ### Future Improvements
