@@ -1,10 +1,20 @@
 # Airline Flight Scheduling Optimisation Using Genetic Algorithms
 
+Genetic Algorithm optimisation of airline flight schedules using 113,339 real-world flight records to minimise airport slot conflicts and improve schedule quality.
+
 ### Overview
 
 This project explores the application of **Artificial Intelligence and evolutionary optimisation** to airline flight scheduling. Using over **113,000 real-world airline records**, a **Genetic Algorithm (GA)** was developed to optimise flight departure schedules, reduce airport slot conflicts, and improve overall schedule quality.
 
 The project demonstrates the complete AI workflow, from data preparation and feature engineering through to algorithm design, optimisation, testing, and performance evaluation.
+
+<p align="center">
+  <img src="images/fitness_progression.png" width="650">
+</p>
+
+<p align="center">
+  <em>Figure 1: Fitness improvement across 50 generations showing optimisation progress of the Genetic Algorithm.</em>
+</p>
 
 ### Project Objectives
 
@@ -53,25 +63,13 @@ A **Genetic Algorithm** was selected due to its ability to efficiently search la
 
 ### Genetic Algorithm Workflow
 
-```text
-Flight Data
-     ↓
-Data Cleaning
-     ↓
-Feature Engineering
-     ↓
-Population Initialisation
-     ↓
-Fitness Evaluation
-     ↓
-Selection
-     ↓
-Crossover
-     ↓
-Mutation
-     ↓
-Optimised Schedule
-```
+<p align="center">
+  <img src="images/workflow_diagram.png" width="300">
+</p>
+
+<p align="center">
+  <em>Figure 2: End-to-end workflow showing data preparation, genetic algorithm optimisation and schedule evaluation.</em>
+</p>
 
 ### Fitness Function
 
@@ -172,7 +170,7 @@ Potential future enhancements include:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/airline-flight-scheduling-genetic-algorithm.git
+git clone https://github.com/elisa0228/airline-flight-scheduling-genetic-algorithm.git
 ```
 
 2. Install dependencies
@@ -181,12 +179,9 @@ git clone https://github.com/your-username/airline-flight-scheduling-genetic-alg
 pip install -r requirements.txt
 ```
 
-3. Open the Colab Notebook and run all cells
+3. Download the colab notebook and open in Google Colab and run all cells
 
-```bash
-colab notebook
-```
-
+   
 ### Project Highlights
 
 *Real-world airline dataset (113k+ records)*
